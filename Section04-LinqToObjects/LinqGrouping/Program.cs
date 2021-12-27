@@ -30,7 +30,8 @@ namespace LinqGrouping
             Initialize();
 
             //LinqGroupBy();
-            LinqToLookup();
+            //LinqToLookup();
+            LinqToLookup_Enumerable();
         }
 
         static void LinqGroupBy()
@@ -63,11 +64,25 @@ namespace LinqGrouping
             // Method syntax
             Console.WriteLine("Method syntax:");
             var methodQuery = students.ToLookup(student => student.CourseId);
-            //foreach (var item in methodQuery)
+
             for(int i = 1; i<4; i++)
             {
                 Console.WriteLine(i);
                 foreach(Student s in methodQuery[i])
+                    Console.WriteLine($"{s.FirstName} {s.LastName}");
+            }
+        }
+
+        static void LinqToLookup_Enumerable()
+        {
+            // Method syntax
+            Console.WriteLine("Method syntax:");
+            var methodQuery = students.ToLookup(student => student.CourseId);
+
+            foreach(var item in methodQuery)
+            {
+                Console.WriteLine(item.Key);
+                foreach(Student s in item)
                     Console.WriteLine($"{s.FirstName} {s.LastName}");
             }
         }

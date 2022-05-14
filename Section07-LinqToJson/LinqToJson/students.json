@@ -1,0 +1,52 @@
+{
+    "Students": [
+        {
+            "StudentId": 101,
+            "FirstName": "James",
+            "LastName": "Smith",
+            "CourseId": 1
+        },
+        {
+            "StudentId": 102,
+            "FirstName": "Robert",
+            "LastName": "Smith",
+            "CourseId": 2
+        },
+        {
+            "StudentId": 103,
+            "FirstName": "Maria",
+            "LastName": "Rodriguez",
+            "CourseId": 3
+        },
+        {
+            "StudentId": 104,
+            "FirstName": "David",
+            "LastName": "Smith",
+            "CourseId": 1
+        },
+        {
+            "StudentId": 105,
+            "FirstName": "James",
+            "LastName": "Johnson",
+            "CourseId": 2
+        },
+        {
+            "StudentId": 106,
+            "FirstName": "John",
+            "LastName": "SevenLast",
+            "CourseId": 3
+        },
+        {
+            "StudentId": 107,
+            "FirstName": "Maria",
+            "LastName": "Garcia",
+            "CourseId": 1
+        },
+        {
+            "StudentId": 108,
+            "FirstName": "Mary",
+            "LastName": "Smith",
+            "CourseId": 2
+        }
+    ]
+}

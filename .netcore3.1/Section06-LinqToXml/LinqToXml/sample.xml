@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+  <Student CourseId="1">
+    <StudentId>101</StudentId>   
+    <FirstName>James</FirstName> 
+    <LastName>Smith</LastName>   
+  </Student>
+  <Student CourseId="2">
+    <StudentId>102</StudentId>   
+    <FirstName>Robert</FirstName>
+    <LastName>Smith</LastName>
+  </Student>
+  <Student CourseId="3">
+    <StudentId>103</StudentId>
+    <FirstName>Maria</FirstName>
+    <LastName>Rodriguez</LastName>
+  </Student>
+  <Student CourseId="1">
+    <StudentId>104</StudentId>
+    <FirstName>David</FirstName>
+    <LastName>Smith</LastName>
+  </Student>
+  <Student CourseId="2">
+    <StudentId>105</StudentId>
+    <FirstName>James</FirstName>
+    <LastName>Johnson</LastName>
+  </Student>
+  <Student CourseId="3">
+    <StudentId>106</StudentId>
+    <FirstName>John</FirstName>
+    <LastName>SevenLast</LastName>
+  </Student>
+  <Student CourseId="1">
+    <StudentId>107</StudentId>
+    <FirstName>Maria</FirstName>
+    <LastName>Garcia</LastName>
+  </Student>
+  <Student CourseId="2">
+    <StudentId>108</StudentId>
+    <FirstName>Mary</FirstName>
+    <LastName>Smith</LastName>
+  </Student>
+</Students>
